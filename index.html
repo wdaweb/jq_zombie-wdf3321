@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>一隻穿雲箭</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<audio id="audio" src="./Im so Happy (feat. 韓國瑜).mp3"></audio>
+		<span id="avatar">AVATAR</span>
+		<span id="score1">SCORE</span>
+		<div id="title"></div>
+		<div class="container">
+			<span id="score1"></span>
+			<div id="score">0</div>
+			<div class="countdown">
+				<span></span>
+			</div>
+			<div class="highScore" draggable="false">
+				<p>Highest Score</p>
+				<span>69</span>
+			</div>
+
+			<div class="box">
+				<div class="planeArea"></div>
+				<span class="title">大爆射!</span>
+				<div class="controller" draggable="false">
+					<button type="button" class="" id="startBtn">START</button>
+					<br />
+					<label for="auto">
+						<input type="radio" name="mode" class="" id="auto" checked /><span>AUTO-連發</span>
+					</label>
+					<label for="click">
+						<input type="radio" name="mode" class="" id="click" /><span>SINGLE-單發</span>
+					</label>
+				</div>
+			</div>
+		</div>
+		<img src="./a.png" class="block" />
+		<script src="./js/sweetalert2.all.min.js"></script>
+		<script src="./js/jquery-3.6.0.min.js"></script>
+		<script src="./js/Game.js"></script>
+	</body>
+</html>
